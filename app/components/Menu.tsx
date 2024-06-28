@@ -2,7 +2,7 @@
 import Tabs from "./Tabs";
 import { useGetCategoriesQuery } from "@/lib/features/products/productsApiSlice";
 
-const Menu = ({ handleFilter }: { handleFilter: () => void }) => {
+const Menu = ({ handleFilter }: { handleFilter: any }) => {
   const { data: categories } = useGetCategoriesQuery();
 
   return (

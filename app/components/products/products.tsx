@@ -14,7 +14,6 @@ const Products = () => {
   });
 
   const handleFilter = (filter: string) => {
-    console.log(filter);
     setFilterBy(filter);
   };
 
