@@ -16,7 +16,7 @@ const Product = ({ product }: ProductProps) => {
   };
 
   return (
-    <div className="w-full md:w-[45%] lg:w-[23%] mx-auto mb-10 relative curp">
+    <div className="group">
       <div className="border-[rgba(0,0,0,0.1)] border rounded-lg h-[200px]">
         <Image
           height={100}

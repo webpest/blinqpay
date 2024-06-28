@@ -21,12 +21,10 @@ const Products = () => {
   return (
     <>
       <Menu handleFilter={handleFilter} />
-      <div className="container mx-auto pb-10 mt-8">
-        <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-          {filteredProducts?.map((product) => (
-            <Product key={product.id} product={product} />
-          ))}
-        </div>
+      <div className="w-full flex items-center px-4 lg:px-[44px] flex-wrap py-6 mt-3">
+        {filteredProducts?.map((product) => (
+          <Product key={product.id} product={product} />
+        ))}
       </div>
     </>
   );
