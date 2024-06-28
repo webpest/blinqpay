@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
-import { Counter } from "./components/counter/Counter";
+import Header from "./components/Header";
+import Products from "./components/products/products";
+import Menu from "./components/Menu";
 
 export default function IndexPage() {
-  return <Counter />;
+  return (
+    <>
+      <Header />
+      <Menu />
+      <Products />
+    </>
+  );
 }
 
 export const metadata: Metadata = {
-  title: "Redux Toolkit",
+  title: "BlinqPay eCommerce Task",
 };

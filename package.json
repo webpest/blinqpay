@@ -10,12 +10,18 @@
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-redux": "^9.1.0"
+    "react-icons": "^5.2.1",
+    "react-redux": "^9.1.0",
+    "redux-persist": "^6.0.0",
+    "sonner": "^1.5.0"
   },
   "devDependencies": {
     "@types/node": "20.2.5",
     "@types/react": "18.2.37",
     "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4",
     "typescript": "^5.3.3"
   }
 }
